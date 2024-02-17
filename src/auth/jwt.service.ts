@@ -4,9 +4,10 @@ import * as jwt from 'jsonwebtoken';
 @Injectable()
 export class JwtService {
   /**
-   * Verify is a method that verifies the token and returns the payload.
-   * @param token
-   * @param arg1
+   * Sign token
+   * @param token - token to sign
+   * @param arg1 - secret key
+   * @returns
    */
   async verifyAsync(token: string, arg1: { secret: any }) {
     try {
