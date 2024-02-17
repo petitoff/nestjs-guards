@@ -25,6 +25,7 @@
     "@nestjs/jwt": "^10.2.0",
     "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^10.0.0",
+    "dotenv": "^16.4.4",
     "jsonwebtoken": "^9.0.2",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.2.0",
